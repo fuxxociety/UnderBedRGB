@@ -1696,7 +1696,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="12V-CIRCLE" urn="urn:adsk.eagle:component:16502441/6" prefix="SUPPLY" library_version="15">
+<deviceset name="12V-CIRCLE" urn="urn:adsk.eagle:component:16502441/7" prefix="SUPPLY" uservalue="yes" library_version="16">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;  12 Volt (12V) Circle</description>
 <gates>
 <gate name="G$1" symbol="12V-CIRCLE" x="0" y="0"/>
@@ -1906,37 +1906,37 @@ pitch</text>
 <wire x1="4.5" y1="-3" x2="5" y2="-3.6" width="0.127" layer="21"/>
 <circle x="-4.4" y="1.3" radius="0.1" width="0.3" layer="21"/>
 </package>
-<package name="DEVBOARD_ESP8266_NODEMCU_V3" urn="urn:adsk.eagle:footprint:36294321/3" library_version="21">
-<pad name="TOUT/A0" x="-14" y="18" drill="0.9" shape="square" first="yes"/>
-<pad name="GND" x="-14" y="15.45" drill="0.9" shape="square"/>
-<pad name="VUSB" x="-14" y="12.9" drill="0.9" shape="square"/>
-<pad name="GPIO10/S3" x="-14" y="10.35" drill="0.9" shape="square"/>
-<pad name="S2" x="-14" y="7.8" drill="0.9" shape="square"/>
-<pad name="S1" x="-14" y="5.25" drill="0.9" shape="square"/>
-<pad name="SC" x="-14" y="2.7" drill="0.9" shape="square"/>
-<pad name="S0" x="-14" y="0.15" drill="0.9" shape="square"/>
-<pad name="SK" x="-14" y="-2.4" drill="0.9" shape="square"/>
-<pad name="GND2" x="-14" y="-4.95" drill="0.9" shape="square"/>
-<pad name="3.3V" x="-14" y="-7.5" drill="0.9" shape="square"/>
-<pad name="ENABLE" x="-14" y="-10.05" drill="0.9" shape="square"/>
-<pad name="RESET" x="-14" y="-12.6" drill="0.9" shape="square"/>
-<pad name="GND3" x="-14" y="-15.15" drill="0.9" shape="square"/>
-<pad name="VIN" x="-14" y="-17.7" drill="0.9" shape="square"/>
-<pad name="3.3V_3" x="14" y="-17.7" drill="0.9" shape="square"/>
-<pad name="GND_5" x="14" y="-15.15" drill="0.9" shape="square"/>
-<pad name="GPIO01/UART_TX" x="14" y="-12.6" drill="0.9" shape="square"/>
-<pad name="GPIO03/UART_RX" x="14" y="-10.05" drill="0.9" shape="square"/>
-<pad name="GPIO15/D8" x="14" y="-7.5" drill="0.9" shape="square"/>
-<pad name="GPIO13/D7" x="14" y="-4.95" drill="0.9" shape="square"/>
-<pad name="GPIO12/D6" x="14" y="-2.4" drill="0.9" shape="square"/>
-<pad name="GPIO14/D5" x="14" y="0.15" drill="0.9" shape="square"/>
-<pad name="GND_4" x="14" y="2.7" drill="0.9" shape="square"/>
-<pad name="3.3V_2" x="14" y="5.25" drill="0.9" shape="square"/>
-<pad name="GPIO02/D4" x="14" y="7.8" drill="0.9" shape="square"/>
-<pad name="GPIO00/D3" x="14" y="10.35" drill="0.9" shape="square"/>
-<pad name="GPIO04/D2" x="14" y="12.9" drill="0.9" shape="square"/>
-<pad name="GPIO05/D1" x="14" y="15.45" drill="0.9" shape="square"/>
-<pad name="GPIO10/D0" x="14" y="18" drill="0.9" shape="square"/>
+<package name="DEVBOARD_ESP8266_NODEMCU_V3" urn="urn:adsk.eagle:footprint:36294321/5" library_version="40">
+<pad name="TOUT/A0" x="-14" y="17.78" drill="0.9" shape="square" first="yes"/>
+<pad name="GND" x="-14" y="15.24" drill="0.9" shape="square"/>
+<pad name="VUSB" x="-14" y="12.7" drill="0.9" shape="square"/>
+<pad name="GPIO10/S3" x="-14" y="10.16" drill="0.9" shape="square"/>
+<pad name="GPIO09/S2" x="-14" y="7.62" drill="0.9" shape="square"/>
+<pad name="MOSI/S1" x="-14" y="5.08" drill="0.9" shape="square"/>
+<pad name="CS/SC" x="-14" y="2.54" drill="0.9" shape="square"/>
+<pad name="MISO/S0" x="-14" y="0" drill="0.9" shape="square"/>
+<pad name="SCLK/SK" x="-14" y="-2.54" drill="0.9" shape="square"/>
+<pad name="GND2" x="-14" y="-5.08" drill="0.9" shape="square"/>
+<pad name="3.3V" x="-14" y="-7.62" drill="0.9" shape="square"/>
+<pad name="ENABLE" x="-14" y="-10.16" drill="0.9" shape="square"/>
+<pad name="RESET" x="-14" y="-12.7" drill="0.9" shape="square"/>
+<pad name="GND3" x="-14" y="-15.24" drill="0.9" shape="square"/>
+<pad name="VIN" x="-14" y="-17.78" drill="0.9" shape="square"/>
+<pad name="3.3V_3" x="14" y="-17.78" drill="0.9" shape="square"/>
+<pad name="GND_5" x="14" y="-15.24" drill="0.9" shape="square"/>
+<pad name="GPIO01/UART_TX" x="14" y="-12.7" drill="0.9" shape="square"/>
+<pad name="GPIO03/UART_RX" x="14" y="-10.16" drill="0.9" shape="square"/>
+<pad name="GPIO15/D8" x="14" y="-7.62" drill="0.9" shape="square"/>
+<pad name="GPIO13/D7" x="14" y="-5.08" drill="0.9" shape="square"/>
+<pad name="GPIO12/D6" x="14" y="-2.54" drill="0.9" shape="square"/>
+<pad name="GPIO14/D5" x="14" y="0" drill="0.9" shape="square"/>
+<pad name="GND_4" x="14" y="2.54" drill="0.9" shape="square"/>
+<pad name="3.3V_2" x="14" y="5.08" drill="0.9" shape="square"/>
+<pad name="GPIO02/D4" x="14" y="7.62" drill="0.9" shape="square"/>
+<pad name="GPIO00/D3" x="14" y="10.16" drill="0.9" shape="square"/>
+<pad name="GPIO04/D2" x="14" y="12.7" drill="0.9" shape="square"/>
+<pad name="GPIO05/D1" x="14" y="15.24" drill="0.9" shape="square"/>
+<pad name="GPIO16/D0" x="14" y="17.78" drill="0.9" shape="square"/>
 <wire x1="15.8" y1="-29" x2="14.8" y2="-29" width="0.127" layer="21"/>
 <wire x1="-8" y1="20" x2="-6.5" y2="20" width="0.127" layer="21"/>
 <wire x1="-6.5" y1="20" x2="-6.5" y2="21" width="0.127" layer="21"/>
@@ -2125,23 +2125,115 @@ pitch</text>
 <wire x1="15.8" y1="-29" x2="15.8" y2="-28" width="0.127" layer="21"/>
 <wire x1="-15.8" y1="-28" x2="-15.8" y2="-29" width="0.127" layer="21"/>
 <wire x1="-15.8" y1="-29" x2="-14.8" y2="-29" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-19.05" x2="-12.7" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-19.05" x2="-12.7" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-16.51" x2="-12.7" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-13.97" x2="-12.7" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-11.43" x2="-12.7" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-8.89" x2="-12.7" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-6.35" x2="-12.7" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-3.81" x2="-12.7" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-1.27" x2="-12.7" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="1.27" x2="-12.7" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="3.81" x2="-12.7" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="6.35" x2="-12.7" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="8.89" x2="-12.7" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="11.43" x2="-12.7" y2="13.97" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="13.97" x2="-12.7" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="16.51" x2="-12.7" y2="19.05" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="19.05" x2="-15.24" y2="19.05" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="19.05" x2="-15.24" y2="16.51" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="16.51" x2="-15.24" y2="13.97" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="13.97" x2="-15.24" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="11.43" x2="-15.24" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="8.89" x2="-15.24" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="6.35" x2="-15.24" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="3.81" x2="-15.24" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="1.27" x2="-15.24" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-1.27" x2="-15.24" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-3.81" x2="-15.24" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-6.35" x2="-15.24" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-8.89" x2="-15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-11.43" x2="-15.24" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-13.97" x2="-15.24" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-16.51" x2="-15.24" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-16.51" x2="-12.7" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-13.97" x2="-12.7" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-11.43" x2="-12.7" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-8.89" x2="-12.7" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-6.35" x2="-12.7" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-3.81" x2="-12.7" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-1.27" x2="-12.7" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="1.27" x2="-12.7" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="3.81" x2="-12.7" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="6.35" x2="-12.7" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="8.89" x2="-12.7" y2="8.89" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="11.43" x2="-12.7" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="13.97" x2="-12.7" y2="13.97" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="16.51" x2="-12.7" y2="16.51" width="0.127" layer="21"/>
+<wire x1="12.7" y1="19.05" x2="12.7" y2="16.51" width="0.127" layer="21"/>
+<wire x1="12.7" y1="16.51" x2="12.7" y2="13.97" width="0.127" layer="21"/>
+<wire x1="12.7" y1="13.97" x2="12.7" y2="11.43" width="0.127" layer="21"/>
+<wire x1="12.7" y1="11.43" x2="12.7" y2="8.89" width="0.127" layer="21"/>
+<wire x1="12.7" y1="8.89" x2="12.7" y2="6.35" width="0.127" layer="21"/>
+<wire x1="12.7" y1="6.35" x2="12.7" y2="3.81" width="0.127" layer="21"/>
+<wire x1="12.7" y1="3.81" x2="12.7" y2="1.27" width="0.127" layer="21"/>
+<wire x1="12.7" y1="1.27" x2="12.7" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-3.81" x2="12.7" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-6.35" x2="12.7" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-8.89" x2="12.7" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-11.43" x2="12.7" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-13.97" x2="12.7" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-16.51" x2="12.7" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-19.05" x2="15.24" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-19.05" x2="15.24" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-16.51" x2="15.24" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-13.97" x2="15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-11.43" x2="15.24" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-8.89" x2="15.24" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-6.35" x2="15.24" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-3.81" x2="15.24" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-1.27" x2="15.24" y2="1.27" width="0.127" layer="21"/>
+<wire x1="15.24" y1="1.27" x2="15.24" y2="3.81" width="0.127" layer="21"/>
+<wire x1="15.24" y1="3.81" x2="15.24" y2="6.35" width="0.127" layer="21"/>
+<wire x1="15.24" y1="6.35" x2="15.24" y2="8.89" width="0.127" layer="21"/>
+<wire x1="15.24" y1="8.89" x2="15.24" y2="11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="11.43" x2="15.24" y2="13.97" width="0.127" layer="21"/>
+<wire x1="15.24" y1="13.97" x2="15.24" y2="16.51" width="0.127" layer="21"/>
+<wire x1="15.24" y1="16.51" x2="15.24" y2="19.05" width="0.127" layer="21"/>
+<wire x1="15.24" y1="19.05" x2="12.7" y2="19.05" width="0.127" layer="21"/>
+<wire x1="12.7" y1="16.51" x2="15.24" y2="16.51" width="0.127" layer="21"/>
+<wire x1="12.7" y1="13.97" x2="15.24" y2="13.97" width="0.127" layer="21"/>
+<wire x1="12.7" y1="11.43" x2="15.24" y2="11.43" width="0.127" layer="21"/>
+<wire x1="12.7" y1="8.89" x2="15.24" y2="8.89" width="0.127" layer="21"/>
+<wire x1="12.7" y1="6.35" x2="15.24" y2="6.35" width="0.127" layer="21"/>
+<wire x1="12.7" y1="3.81" x2="15.24" y2="3.81" width="0.127" layer="21"/>
+<wire x1="12.7" y1="1.27" x2="15.24" y2="1.27" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-1.27" x2="15.24" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-3.81" x2="15.24" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-6.35" x2="15.24" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-8.89" x2="15.24" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-11.43" x2="15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-13.97" x2="15.24" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-16.51" x2="15.24" y2="-16.51" width="0.127" layer="21"/>
 <text x="0" y="8.89" size="1.27" layer="27" rot="R90" align="center-left">NodeMCU V3
 ESP8266</text>
-<text x="-15.5" y="17.907" size="1.27" layer="137" align="center-right">A0</text>
-<text x="-15.5" y="15.367" size="1.27" layer="137" align="center-right">GND</text>
-<text x="-15.5" y="12.827" size="1.27" layer="137" align="center-right">VUSB</text>
-<text x="-15.5" y="10.287" size="1.27" layer="137" align="center-right">S3</text>
-<text x="-15.5" y="7.747" size="1.27" layer="137" align="center-right">S2</text>
-<text x="-15.5" y="5.207" size="1.27" layer="137" align="center-right">S1</text>
-<text x="-15.5" y="2.667" size="1.27" layer="137" align="center-right">SC</text>
-<text x="-15.5" y="0.127" size="1.27" layer="137" align="center-right">S0</text>
-<text x="-15.5" y="-2.413" size="1.27" layer="137" align="center-right">SK</text>
-<text x="-15.5" y="-4.953" size="1.27" layer="137" align="center-right">GND</text>
-<text x="-15.5" y="-7.493" size="1.27" layer="137" align="center-right">3.3V</text>
-<text x="-15.5" y="-10.033" size="1.27" layer="137" align="center-right">EN</text>
-<text x="-15.5" y="-12.573" size="1.27" layer="137" align="center-right">RST</text>
-<text x="-15.5" y="-15.113" size="1.27" layer="137" align="center-right">GND</text>
-<text x="-15.5" y="-17.653" size="1.27" layer="137" align="center-right">VIN</text>
+<text x="-15.5" y="17.78" size="1.27" layer="137" align="center-right">A0</text>
+<text x="-15.5" y="15.24" size="1.27" layer="137" align="center-right">GND</text>
+<text x="-15.5" y="12.7" size="1.27" layer="137" align="center-right">VUSB</text>
+<text x="-15.5" y="10.16" size="1.27" layer="137" align="center-right">S3</text>
+<text x="-15.5" y="7.62" size="1.27" layer="137" align="center-right">S2</text>
+<text x="-15.5" y="5.08" size="1.27" layer="137" align="center-right">S1</text>
+<text x="-15.5" y="2.54" size="1.27" layer="137" align="center-right">SC</text>
+<text x="-15.5" y="0" size="1.27" layer="137" align="center-right">S0</text>
+<text x="-15.5" y="-2.54" size="1.27" layer="137" align="center-right">SK</text>
+<text x="-15.5" y="-5.08" size="1.27" layer="137" align="center-right">GND</text>
+<text x="-15.5" y="-7.62" size="1.27" layer="137" align="center-right">3.3V</text>
+<text x="-15.5" y="-10.16" size="1.27" layer="137" align="center-right">EN</text>
+<text x="-15.5" y="-12.7" size="1.27" layer="137" align="center-right">RST</text>
+<text x="-15.5" y="-15.24" size="1.27" layer="137" align="center-right">GND</text>
+<text x="-15.5" y="-17.78" size="1.27" layer="137" align="center-right">VIN</text>
 <text x="15.5" y="17.78" size="1.27" layer="137" align="center-left">D0</text>
 <text x="15.5" y="15.24" size="1.27" layer="137" align="center-left">D1</text>
 <text x="15.5" y="12.7" size="1.27" layer="137" align="center-left">D2</text>
@@ -2157,8 +2249,6 @@ ESP8266</text>
 <text x="15.5" y="-12.7" size="1.27" layer="137" align="center-left">TX</text>
 <text x="15.5" y="-15.24" size="1.27" layer="137" align="center-left">GND</text>
 <text x="15.5" y="-17.78" size="1.27" layer="137" align="center-left">3.3V</text>
-<text x="-5.207" y="-27.051" size="2.54" layer="21" rot="R90">MOUNT MODULE 
-TO OTHER SIDE</text>
 <rectangle x1="-0.09" y1="-25.2" x2="0.09" y2="-23.5" layer="149"/>
 <rectangle x1="-0.09" y1="-25.2" x2="0.09" y2="-23.5" layer="149"/>
 <rectangle x1="0.41" y1="-25.2" x2="0.59" y2="-23.5" layer="149"/>
@@ -2194,7 +2284,7 @@ TO OTHER SIDE</text>
 <rectangle x1="-0.4826" y1="-3.8608" x2="0.4826" y2="-1.3462" layer="21"/>
 <rectangle x1="2.921" y1="-3.8608" x2="3.8862" y2="-1.3462" layer="21"/>
 </package>
-<package name="TO263-5" urn="urn:adsk.eagle:footprint:16235/1" library_version="33" library_locally_modified="yes">
+<package name="TO263-5" urn="urn:adsk.eagle:footprint:37231381/1" library_version="40">
 <description>&lt;b&gt;TO-263&lt;/b&gt;</description>
 <wire x1="5.094" y1="7.165" x2="5.094" y2="-2.88" width="0.2032" layer="51"/>
 <wire x1="5.094" y1="-2.88" x2="-5.094" y2="-2.88" width="0.2032" layer="21"/>
@@ -2206,7 +2296,7 @@ TO OTHER SIDE</text>
 <wire x1="3.378" y1="8.135" x2="5.105" y2="7.678" width="0.2032" layer="51"/>
 <wire x1="5.105" y1="7.678" x2="5.105" y2="7.267" width="0.2032" layer="51"/>
 <wire x1="5.105" y1="7.267" x2="-5.105" y2="7.267" width="0.2032" layer="51"/>
-<smd name="6" x="0" y="2.54" dx="10.8" dy="10.41" layer="1"/>
+<smd name="6" x="0" y="2.54" dx="10.8" dy="10.41" layer="1" thermals="no"/>
 <smd name="1" x="-3.4036" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
 <smd name="2" x="-1.7018" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
 <smd name="3" x="0" y="-5.7912" dx="1.0668" dy="2.159" layer="1"/>
@@ -2249,7 +2339,7 @@ TO OTHER SIDE</text>
 <packageinstance name="WR-TB_3.50-3.81_3POS"/>
 </packageinstances>
 </package3d>
-<package3d name="DEVBOARD_ESP8266_NODEMCU_V3" urn="urn:adsk.eagle:package:36294322/3" type="box" library_version="21">
+<package3d name="DEVBOARD_ESP8266_NODEMCU_V3" urn="urn:adsk.eagle:package:36294322/5" type="box" library_version="40">
 <packageinstances>
 <packageinstance name="DEVBOARD_ESP8266_NODEMCU_V3"/>
 </packageinstances>
@@ -2261,8 +2351,8 @@ TO OTHER SIDE</text>
 <packageinstance name="T05D"/>
 </packageinstances>
 </package3d>
-<package3d name="TO263-5" urn="urn:adsk.eagle:package:16438/2" type="model" library_version="33" library_locally_modified="yes">
-<description>TO-263</description>
+<package3d name="TO263-5" urn="urn:adsk.eagle:package:37231383/1" type="model" library_version="40">
+<description>&lt;b&gt;TO-263&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="TO263-5"/>
 </packageinstances>
@@ -2548,7 +2638,7 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/TBL_3_50_1031_69110
 </device>
 </devices>
 </deviceset>
-<deviceset name="DEVBOARD_ESP8266_NODEMCU_V3" urn="urn:adsk.eagle:component:36294323/3" uservalue="yes" library_version="21">
+<deviceset name="DEVBOARD_ESP8266_NODEMCU_V3" urn="urn:adsk.eagle:component:36294323/5" uservalue="yes" library_version="40">
 <gates>
 <gate name="G$1" symbol="DEVBOARD_ESP8266_NODEMCU_V3" x="0" y="0"/>
 </gates>
@@ -2559,7 +2649,7 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/TBL_3_50_1031_69110
 <connect gate="G$1" pin="3.3V@4" pad="3.3V_2"/>
 <connect gate="G$1" pin="3.3V@5" pad="3.3V_3"/>
 <connect gate="G$1" pin="A0" pad="TOUT/A0"/>
-<connect gate="G$1" pin="D0" pad="GPIO10/D0"/>
+<connect gate="G$1" pin="D0" pad="GPIO16/D0"/>
 <connect gate="G$1" pin="D1" pad="GPIO05/D1"/>
 <connect gate="G$1" pin="D2" pad="GPIO04/D2"/>
 <connect gate="G$1" pin="D3" pad="GPIO00/D3"/>
@@ -2576,18 +2666,18 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/TBL_3_50_1031_69110
 <connect gate="G$1" pin="GND@5" pad="GND_5"/>
 <connect gate="G$1" pin="RST" pad="RESET"/>
 <connect gate="G$1" pin="RX" pad="GPIO03/UART_RX"/>
-<connect gate="G$1" pin="S0" pad="S0"/>
-<connect gate="G$1" pin="S1" pad="S1"/>
-<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="S0" pad="MISO/S0"/>
+<connect gate="G$1" pin="S1" pad="MOSI/S1"/>
+<connect gate="G$1" pin="S2" pad="GPIO09/S2"/>
 <connect gate="G$1" pin="S3" pad="GPIO10/S3"/>
-<connect gate="G$1" pin="SC" pad="SC"/>
-<connect gate="G$1" pin="SK" pad="SK"/>
+<connect gate="G$1" pin="SC" pad="CS/SC"/>
+<connect gate="G$1" pin="SK" pad="SCLK/SK"/>
 <connect gate="G$1" pin="TX" pad="GPIO01/UART_TX"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VV" pad="VUSB"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:36294322/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36294322/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2595,7 +2685,7 @@ Details see: &lt;a href="https://katalog.we-online.com/en/em/TBL_3_50_1031_69110
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2596" urn="urn:adsk.eagle:component:37061986/2" prefix="IC" library_version="35">
+<deviceset name="LM2596" urn="urn:adsk.eagle:component:37061986/3" prefix="IC" library_version="40">
 <description>&lt;b&gt;SIMPLE SWITCHER® Power Converter 150 kHz 3A Step-Down Voltage Regulator&lt;/b&gt;&lt;p&gt;
 Source: http://www.national.com/ds/LM/LM2596.pdf</description>
 <gates>
@@ -2632,7 +2722,7 @@ Source: http://www.national.com/ds/LM/LM2596.pdf</description>
 <connect gate="G$1" pin="VIN" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16438/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37231383/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -8727,10 +8817,10 @@ LED</description>
 <class number="1" name="LV" width="0.254" drill="0">
 <clearance class="1" value="0.127"/>
 </class>
-<class number="2" name="signal" width="0.1524" drill="0">
+<class number="2" name="signal" width="0.002540625" drill="0">
 <clearance class="2" value="0.0508"/>
 </class>
-<class number="3" name="HV" width="0.508" drill="0">
+<class number="3" name="HV" width="0.254" drill="0">
 <clearance class="3" value="0.127"/>
 </class>
 </classes>
@@ -8740,7 +8830,7 @@ LED</description>
 </part>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$1" library="CustomParts-Josh" library_urn="urn:adsk.eagle:library:21718240" deviceset="DEVBOARD_ESP8266_NODEMCU_V3" device="DEVBOARD" package3d_urn="urn:adsk.eagle:package:36294322/3"/>
+<part name="U$1" library="CustomParts-Josh" library_urn="urn:adsk.eagle:library:21718240" deviceset="DEVBOARD_ESP8266_NODEMCU_V3" device="DEVBOARD" package3d_urn="urn:adsk.eagle:package:36294322/5"/>
 <part name="R5" library="OPL_Resistor" library_urn="urn:adsk.eagle:library:8004883" deviceset="SMD-RES-68R-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="68 OHM"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
@@ -8761,13 +8851,13 @@ LED</description>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="POWER" library="CustomParts-Josh" library_urn="urn:adsk.eagle:library:21718240" deviceset="CONN-WR-TBL-2POS" device="" package3d_urn="urn:adsk.eagle:package:36293342/3" value=" 691103110003 "/>
 <part name="ADD-ON" library="JST XH Connectors" deviceset="JST-XH-06-PIN" device="-VERT-ROUND-PAD"/>
-<part name="MOTION" library="JST XH Connectors" deviceset="JST-XH-03-PIN" device="-VERT-ROUND-PAD"/>
+<part name="PIR.SENSOR" library="JST XH Connectors" deviceset="JST-XH-03-PIN" device="-VERT-ROUND-PAD"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1" value="MOUNT-PAD"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.2" package3d_urn="urn:adsk.eagle:package:14282/1"/>
-<part name="IC4" library="CustomParts-Josh" library_urn="urn:adsk.eagle:library:21718240" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:16438/2"/>
+<part name="IC4" library="CustomParts-Josh" library_urn="urn:adsk.eagle:library:21718240" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:37231383/1"/>
 <part name="CT3" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C-POL-US" device="ECAP-8.5MM" package3d_urn="urn:adsk.eagle:package:16290889/1" technology="_" value="220UF"/>
 <part name="CT4" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C-POL-US" device="ECAP-8.5MM" package3d_urn="urn:adsk.eagle:package:16290889/1" technology="_" value="220UF"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2"/>
@@ -8820,9 +8910,9 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <instance part="SUPPLY5" gate="G$1" x="5.08" y="38.1" smashed="yes">
 <attribute name="VALUE" x="4.953" y="41.275" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="5V_LED" gate="G$1" x="27.94" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="8.001" size="1.778" layer="95" align="top-center"/>
-<attribute name="WS2811" x="27.94" y="12.7" size="1.778" layer="96" rot="R90"/>
+<instance part="5V_LED" gate="G$1" x="27.94" y="12.7" smashed="yes" rot="MR270">
+<attribute name="NAME" x="27.94" y="17.399" size="1.778" layer="95" rot="MR180" align="top-center"/>
+<attribute name="WS2811" x="27.94" y="12.7" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="35.56" y="5.08" smashed="yes"/>
 <instance part="SUPPLY16" gate="G$1" x="35.56" y="17.78" smashed="yes">
@@ -8849,9 +8939,9 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <instance part="SUPPLY7" gate="GND" x="53.34" y="63.5" smashed="yes">
 <attribute name="VALUE" x="51.435" y="60.325" size="1.778" layer="96"/>
 </instance>
-<instance part="POWER" gate="G$1" x="-7.62" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="-6.698" y="26.87" size="1.016" layer="95" rot="R90" align="bottom-right"/>
-<attribute name="VALUE" x="-5.04" y="26.92" size="1.016" layer="96" rot="R90" align="bottom-right"/>
+<instance part="POWER" gate="G$1" x="-7.62" y="33.02" smashed="yes" rot="MR270">
+<attribute name="NAME" x="-6.698" y="36.63" size="1.016" layer="95" rot="MR270" align="bottom-right"/>
+<attribute name="VALUE" x="-5.04" y="36.58" size="1.016" layer="96" rot="MR270" align="bottom-right"/>
 </instance>
 <instance part="ADD-ON" gate="-1" x="83.82" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="81.28" y="37.338" size="1.524" layer="95" rot="MR0"/>
@@ -8871,13 +8961,13 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <instance part="ADD-ON" gate="-6" x="83.82" y="25.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="81.28" y="24.638" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="MOTION" gate="-1" x="83.82" y="10.16" smashed="yes" rot="R180">
+<instance part="PIR.SENSOR" gate="-1" x="83.82" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.28" y="10.922" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="MOTION" gate="-2" x="83.82" y="12.7" smashed="yes" rot="R180">
+<instance part="PIR.SENSOR" gate="-2" x="83.82" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.28" y="13.462" size="1.524" layer="95" rot="R180"/>
 </instance>
-<instance part="MOTION" gate="-3" x="83.82" y="15.24" smashed="yes" rot="R180">
+<instance part="PIR.SENSOR" gate="-3" x="83.82" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.28" y="16.002" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="0" y="-5.08" smashed="yes"/>
@@ -8938,13 +9028,13 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <wire x1="88.9" y1="7.62" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="10.16" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="MOTION" gate="-1" pin="S"/>
+<pinref part="PIR.SENSOR" gate="-1" pin="S"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="0" y1="30.48" x2="0" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="POWER" gate="G$1" pin="1"/>
-<wire x1="0" y1="30.48" x2="-2.54" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="POWER" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="30.48" x2="0" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@1"/>
@@ -8968,10 +9058,10 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="5V_LED" gate="G$1" pin="1"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
-<wire x1="33.02" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="10.16" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="5V_LED" gate="G$1" pin="3"/>
+<wire x1="33.02" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
@@ -9089,18 +9179,13 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <wire x1="86.36" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="G$1" pin="5V"/>
 <wire x1="93.98" y1="15.24" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="MOTION" gate="-3" pin="S"/>
+<pinref part="PIR.SENSOR" gate="-3" pin="S"/>
 </segment>
 <segment>
-<pinref part="5V_LED" gate="G$1" pin="3"/>
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
-<wire x1="33.02" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="15.24" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VV"/>
-<wire x1="-88.9" y1="83.82" x2="-101.6" y2="83.82" width="0.1524" layer="91"/>
-<label x="-101.6" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="5V_LED" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="5V"/>
@@ -9111,6 +9196,11 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
 <junction x="53.34" y="91.44"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<wire x1="-78.74" y1="109.22" x2="-78.74" y2="114.3" width="0.1524" layer="91"/>
+<label x="-78.74" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="2">
@@ -9162,7 +9252,7 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <segment>
 <label x="96.52" y="12.7" size="1.778" layer="95" xref="yes"/>
 <wire x1="86.36" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="MOTION" gate="-2" pin="S"/>
+<pinref part="PIR.SENSOR" gate="-2" pin="S"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D7"/>
@@ -9190,8 +9280,8 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <segment>
 <wire x1="5.08" y1="33.02" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="12V"/>
-<pinref part="POWER" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="33.02" x2="-2.54" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="POWER" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="33.02" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="35.56" y="38.1" size="1.778" layer="95" rot="R90" xref="yes"/>
@@ -9202,9 +9292,9 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 </net>
 <net name="WS2812_DATA" class="2">
 <segment>
+<label x="38.1" y="12.7" size="1.778" layer="95" xref="yes"/>
 <pinref part="5V_LED" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
-<label x="38.1" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -9274,7 +9364,7 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <pinref part="ADD-ON" gate="-3" pin="S"/>
 </segment>
 </net>
-<net name="3.3V" class="1">
+<net name="VCC_3V3.2" class="1">
 <segment>
 <label x="91.44" y="35.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="91.44" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
@@ -9316,6 +9406,20 @@ Level shifters with PNP transistors or PNP FETS are a very bad choice.</text>
 <wire x1="-45.72" y1="-20.32" x2="-48.26" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="0" x2="-55.88" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-20.32" x2="-48.26" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC_3V3.1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="3.3V@2"/>
+<wire x1="-71.12" y1="109.22" x2="-71.12" y2="114.3" width="0.1524" layer="91"/>
+<label x="-71.12" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="VCC_3V3.3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="3.3V@5"/>
+<wire x1="-60.96" y1="109.22" x2="-60.96" y2="114.3" width="0.1524" layer="91"/>
+<label x="-60.96" y="114.3" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
